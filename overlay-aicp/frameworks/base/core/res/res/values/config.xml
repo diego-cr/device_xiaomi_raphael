@@ -79,6 +79,9 @@
         <item>smart_MC:dci_p3</item>
     </string-array>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
+
     <!-- Multicolor Led Support -->
     <bool name="config_multiColorBatteryLed">false</bool>
 
