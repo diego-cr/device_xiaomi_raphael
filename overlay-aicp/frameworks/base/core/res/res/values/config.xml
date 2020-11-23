@@ -78,4 +78,7 @@
         <item>hal_srgb:srgb</item>
         <item>smart_MC:dci_p3</item>
     </string-array>
+
+    <!-- Multicolor Led Support -->
+    <bool name="config_multiColorBatteryLed">false</bool>
 </resources>
