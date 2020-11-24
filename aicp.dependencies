@@ -2,5 +2,9 @@
     {
         "repository": "AICP/proprietary_vendor_xiaomi",
         "target_path": "vendor/xiaomi"
+    },
+    {
+        "repository": "dragonGR/vendor_prebuilts",
+        "target_path": "vendor/prebuilts"
     }
 ]
