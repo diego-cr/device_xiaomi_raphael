@@ -22,4 +22,7 @@
 <resources>
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
+
+    <!-- Draw shadow on FOD pressed -->
+    <bool name="config_fodShadow">true</bool>
 </resources>
