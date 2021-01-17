@@ -386,5 +386,8 @@
 
     <!-- Whether device supports in-display fingerprint when screen is turned off -->
     <bool name="config_supportsInDisplayFingerprintGesture">true</bool>
+
+    <!-- Enable LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
 </resources>
 
