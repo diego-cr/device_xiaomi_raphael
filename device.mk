@@ -11,6 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/raphael/raphael-vendor.mk)
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
@@ -134,7 +135,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/nxp/opensource/sn100x \
     vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
-    vendor/qcom/opensource/commonsys/system/bt/conf
+    vendor/qcom/opensource/commonsys/system/bt/conf \
+    vendor/gapps/common
 
 # RCS
 PRODUCT_PACKAGES += \
