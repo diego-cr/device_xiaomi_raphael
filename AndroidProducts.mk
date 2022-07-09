@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_raphael.mk
+    $(LOCAL_DIR)/aicp_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_raphael-user \
-    lineage_raphael-userdebug \
-    lineage_raphael-eng
+    aicp_raphael-user \
+    aicp_raphael-userdebug \
+    aicp_raphael-eng
